@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/NavBar.jsx";
 
 export default function DashBoard() {
   const [employees, setEmployees] = useState([]);
