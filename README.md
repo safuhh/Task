@@ -1,6 +1,5 @@
 # Employee Task Dashboard (React + Vite)
 
-This is a simple Employee Task Management Dashboard built using React and Vite.
 
 ## Features
 
@@ -10,44 +9,61 @@ This is a simple Employee Task Management Dashboard built using React and Vite.
 - Delete Employee
 - List Employees
 - Search Employees by name
-- Filter Employees by Department
+- Filter by Department
 - Add dynamic departments
+- Prevent duplicate email entries
 
-###  Task Management
+---
+
+### Task Management
 - Assign Task to Employee
 - Edit Task
 - Delete Task
 - Mark Task as Completed
-- Store data using Local Storage
+- Store data in Local Storage
+- Priority system (High / Medium / Low)
+- Due date tracking
+- Overdue detection
+
+---
 
 ###  Dashboard Features
 - Total Employees count
 - Total Tasks count
 - Completed Tasks count
 - Pending Tasks count
-- Overdue Tasks detection (based on due date)
-- Task Priority breakdown (High / Medium / Low)
-- Progress Bar (Completed tasks percentage)
+- Overdue Tasks count
+- Task Priority breakdown
+- Progress bar (completion percentage)
+
+---
 
 ###  Task Logic
-- If task due date is passed and task is not completed → **Overdue**
-- Task progress = (Completed Tasks / Total Tasks) × 100
+- Overdue = Task not completed AND due date is passed
+- Progress = (Completed Tasks / Total Tasks) × 100
 
-###  Filters & Search
+---
+
+###  Search & Filters
 - Search tasks by title
-- Filter tasks by:
+- Filter by:
   - Priority
   - Status
   - Assigned Employee
-- All filters work together
+- All filters work together dynamically
 
-## 🛠 Tech Stack
+---
+
+##  Tech Stack
 - React
 - Vite
-- LocalStorage (for persistence)
+- JavaScript 
+- Local Storage 
 
-##  How to Run
+---
 
+## Installation & Setup
+
+### 1️ Clone the repository
 ```bash
-npm install
-npm run dev
+git clone https://github.com/safuhh/Task.git
